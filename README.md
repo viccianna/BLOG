@@ -16,4 +16,4 @@ In unserem Spiel gibt es das Flugzeug, einen Meteor und einen Strich. Zu Anfang 
 Soviel zum Hintergrund des Spiel, jetzt erklären wir euch das Spiel!
 
 
-![bsp stride](flugzeugbefehl1)
+![bsp stride](flugzeugbefehl1.png)

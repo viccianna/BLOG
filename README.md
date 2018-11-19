@@ -37,3 +37,5 @@ Der nächste Befehl "sende *Bühnenwechsel* an alle" bedeutet, dass einen Nachri
 ![bsp stride](flugzeugbefehl4.png)
 
 Nachdem das Flugzeug dann auf den Planent zufliegt und dort verschwindet, findet sich der Spieler auf dem fremden Planeten wieder. Als nächstes beginnt dann schon das "richtige" Spiel. Dieses Szenario besteht aus dem ersten Strich (rot) und dem Meteor "Metheory". ZUnächst bewegt sich der Meteor auf die Mitte der Bildschirms zu und fängt dann an sich zufällig durch den Raum zu bewegen.
+
+![bsp stride](meteor.png)

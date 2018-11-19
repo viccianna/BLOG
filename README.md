@@ -29,8 +29,6 @@ Nachdem der Spieler geantwortet hat, fragt das Flugzeug "Hast du Lust mit auf ei
 
 ![bsp stride](flugzeugbefehl12.png)
 
-![bsp stride](befehl2.png)
-
 
 Durch den folgenden Befehl aus dem Themenbereich Steuerung "Wiederhole 50 Mal" werden die in dem Befehl enthaltenen Befehle in diesem Fall 50 Mal wiederholt. Die in dem eben gennaten Befehl enthaltenen Befehle bedeuten, dass das Flugzeug erst ein paar Schritte geht, sich dann um ein paar Grad (15°) dreht und dann erneut ein paar Schritte geht. Zusammengesetzt und in Ausführung sieht es dann schließlich so aus, dass das Flugzeug um den Planenten fliegt und dies 2 Mal. Zum Schluss sagt der Befehl "gehe zu X=200 Y=200", dass das Kostüm aus dem Bild fliegt.
 

@@ -52,3 +52,7 @@ Nach nun 10 Sekunden wechselt der Strich sein Kostüm zu einem kleineren, blauen
 Durch folgende Befehle haben wir den Kostümwechsel programmiert:
 
 ![bsp stride](strichebefehle.png)
+
+Die letzten Befehle "verstecken" und "sende *schwarzes Loch* an alle" bedeuten, dass der Strich nach den insgesamt 30 Sekunden verschwinden soll. Der Andere sendet eine Nachricht, in dem Fall an ein anders Kostüm. Das Kostüm "Schwarzes Loch" taucht also nur dann auf, wenn das Spiel gewonnen ist. Es taucht wie auch die vorherigen Kostüme nach dem Befehl "wenn ich ... empfange" auf. Seine aufgabe solles sein den Meteor aufzusaugen. Damit ist dei Gefahr für den Planenten sozusagen vernichtet.
+
+![bsp stride](schwarzesloch.png)

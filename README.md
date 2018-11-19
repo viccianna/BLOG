@@ -73,20 +73,21 @@ Die letzten Befehle "verstecken" und "sende *schwarzes Loch* an alle" bedeuten, 
 
 ![bsp stride](gewonnenflugzeug1.png)
 
-Das verschwinden des Meteors wird dadurch visualisiert, dass die Befehle des Schwarzen Loches daraus bestehen, dass es zu den Koordinaten X=0 und Y=0 geht und dann dort für ein paar Sekunen bleibt. Nach der Wartezeit soll sich auch diese Sprite verstecken. Danach ist der letzte Befehl dieser Sprite, dass sie "sende *buehneyouwon* an alle senden" absendet. Die Nachricht empfängt dann das Flugzeug.
-Da das Spiel in diesem Fall gerade gewonnen wurde, kommt in der nächsten Szene wieder das Flugzeug angeflogen gefolgt von Konfetti. Dem Spieler wird dann gratuliert, dass er diese Welt gerettet hat. Durch die untenstehenden Befehle wird ausgesagt, dass das Flugzeug von den Koordinaten X=-500 Y=0 zu X=0 Y=0 "gleitet". Umgesetzt sieht das so aus als würde es von außerhalb in die Mitte des Bilds fliegen. Dabei haben wir erneut eine gewisse Ausrichtung angegeben und die Größe festgelegt. Zum Schluss sagt es "DANKE! Du hast uns gerettet!!"
+Das Verschwinden des Meteors wird durch die Befehle des Schwarzen Loches visualisiert, die daraus bestehen, dass das Loch zu den Koordinaten X=0 und Y=0 geht und dann dort für ein paar Sekunen bleibt. Nach der Wartezeit soll sich auch diese Sprite verstecken. Danach ist der letzte Befehl dieser Sprite, dass sie "sende *buehneyouwon* an alle" absendet. Die Nachricht empfängt daraufhin das Flugzeug.
+Da das Spiel in diesem Fall gewonnen wurde, kommt in der nächsten Szene wieder das Flugzeug angeflogen, gefolgt von buntem Konfetti. Dem Spieler wird dazu gratuliert, dass er diese Welt gerettet hat. Durch die untenstehenden Befehl wird bewirkt, dass das Flugzeug von den Koordinaten X=-500 Y=0 zu X=0 Y=0 "gleitet". Umgesetzt sieht das so aus als würde es von außerhalb in die Mitte des Bilds fliegen. Dabei haben wir erneut eine gewisse Ausrichtung angegeben und die Größe festgelegt. Zum Schluss sagt es "DANKE! Du hast uns gerettet!!"
 
 ![bsp stride](gewonnenflugzeug.png)          
 
 ## <a name="5"></a> Verloren
 
-Kommen wir nun zum anderen Fall, wenn man das Spiel verloren hat. Man verliert in diesem Spiel, wie schon erwähnt, wenn man den Meteor nicht aufhält, den Boden zu berühren. Denn wenn er das tut, dann wird die Welt von ihm zerstört. Wenn dies eintritt sind folgende Befehle dafür zuständig:
+Kommen wir nun zum zweiten möglichen Fall, nämlich dass Spiel zu verlieren. Verloren hat man, wie schon erwähnt, wenn man den Meteor nicht davon abhält, den Boden zu berühren. Denn wenn er das tut, dann zerstört der dadurch die Welt. Wenn dies eintritt sind folgende Befehle dafür zuständig:
 
 ![bsp stride](verlorenflugzeug.png)            
 
 Die Befehle für den Meteor bestehen daraus, dass er erstmal zu den Koordinaten X=0 und Y=0 wandern soll. Danach sendet er die Nachricht "sende *flugzeugkommen* an alle" ab und wartet 10 Sekunden. Die Zeit ist nötig, damit die damit verbundenen Befehle noch Zeit haben sich auszuführen, bevor der letzte Befehl "stoppe *alles*" eintritt, denn damit wird das Spiel beendet und es passiert nichts mehr. In diesem Fall muss man das Spiel noch einmal von vorne anfangen.
-Die Nachricht die vorhin abgesendet wurde bekommt wieder da Flugzeug. Seine ersten Befehle sind genau die Gleichen wie bei dem Fall das man gewonnen hat. Die Szene endet damit, dass das Flugzeug zu den Koordinaten X=500 Y=0 "gleitet" und davor sagt: "Diese Welt konnten wir nicht retten, aber vielleicht beim nächsten Mal!"
+Die Nachricht die vorhin abgesendet wurde empfängt wieder das Flugzeug. Seine ersten Befehle sind genau die gleichen wie bei dem oben beschrieben Fall des gewinnens. Die Szene endet damit, dass das Flugzeug zu den Koordinaten X=500 Y=0 "gleitet" und davor sagt: "Diese Welt konnten wir nicht retten, aber vielleicht beim nächsten Mal!"
 
 ![bsp stride](verlorenflugzeug1.png)
 
 Schlussendlich lässt sich sagen, dass das Spiel genau das erreicht hat, was anfänglich unsere Intention war: Unsere Geschwister finden es richtig klasse und sind begeisterte Raumfahrer und Weltretter geworden ;)
+Kannst auch du die unerforschte Welt vor dem Untergang retten? Finde es heraus und rette den Planeten vor dem Kometen!  

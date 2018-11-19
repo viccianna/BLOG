@@ -4,6 +4,9 @@ Ein Blog über unser programmiertes Spiel auf Snap! (The Beauty and Joy of Compu
 
 [1. Einleitung](#1)
 
+[2. Die Geschichte des Spiels](#2)
+
+[3. Das Spiel](#3)
 
 ## <a name="1"></a> Einleitung 
 Willkommen auf unserem 2. Blog über unser Spiel. Hier erklären wir alles rund um unser Spiel, wie es funktioniert und auch wie wir mit Problemen umgegangen sind und sie gelöst haben. Dazu haben wir auch Bilder, um alles verständlicher zu machen und damit ihr auch ein Bild vor Augen habt.
@@ -15,6 +18,7 @@ In unserem Spiel gibt es das Flugzeug, einen Meteor und einen Strich. Zu Anfang 
 
 Soviel zum Hintergrund des Spiel, jetzt erklären wir euch das Spiel!
 
+## <a name="2"></a> Einleitung des Spiels
 Auf dem ersten Bild hier sind die Gesamten Befehle des Flugzeugs zu sehen. (Welche Befehle für die einzelnen Szenen zuständig sind, sind rot eingekreist.)
 
 Der Befehl "Wenn *Fahne* angeklickt" bedeutet, dass wenn man das Symbol (oben rechts) anklickt, beginnt das Spiel uns somit alle Befehle. das bedeutet für den ersten Hintergrund (Erde), dass dieser jetzt auftauchen soll. Der Darauffolgende bedeutet, das das Kostüm "airplane1" angezogen wird. "Airplane1" steht für das Flugzeug und der Kasten "setzte Größe auf 50%" bedeutet, dass das Kostüm auf eine andere Größe gesetzte werden aknn und in unserem Fall war das Flugzeug zu groß. Daher haben wir es sozusagen kleiner auftauchen lassen. Das die genannten Befehle in einem lilanen Kasten sind heißt nichts anderes als das sie zu der Kategorie Aussehen gehören. (Es gitb ganz links auf der Projektseite eine Liste mit verschiedenen Kategorien: Bewegung, Aussehen, KLang, Stift, Steuerung, Fühlen, Operatoren und Variabeln. Zu diesen genannten Themen gibt es eine Reihe von Befehlen die man auswählen kann.) Als nächsten Befehl hat das Flugzeug 3 blaue Befehle. Diese gehören zur Bewegung. Diese geben die Ausrichtung und Koordinaten an. Der letzte Befehl der Szene ist hier in hellbalu zu sehen. In den Kasten kann man eine Frage reinschreiben und wir haben uns für "Hallo! Mein name ist Flugzeug! Wie heißt du kleiner Astronaut?" entschieden. Durch das aktivieren von "Antwort" im Zusammenhang mit dem Fragebefehl, kann der Spieler nun antworten.
@@ -36,6 +40,7 @@ Der nächste Befehl "sende *Bühnenwechsel* an alle" bedeutet, dass einen Nachri
 
 ![bsp stride](flugzeugbefehl4.png)
 
+## <a name="3"></a> Das Spiel
 Nachdem das Flugzeug dann auf den Planent zufliegt und dort verschwindet, findet sich der Spieler auf dem fremden Planeten wieder. Als nächstes beginnt dann schon das "richtige" Spiel. Dieses Szenario besteht aus dem ersten Strich (rot) und dem Meteor "Metheory". ZUnächst bewegt sich der Meteor auf die Mitte der Bildschirms zu und fängt dann an sich zufällig durch den Raum zu bewegen.
 
 ![bsp stride](meteor-2.png)

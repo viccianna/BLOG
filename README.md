@@ -56,3 +56,5 @@ Durch folgende Befehle haben wir den Kostümwechsel programmiert:
 Die letzten Befehle "verstecken" und "sende *schwarzes Loch* an alle" bedeuten, dass der Strich nach den insgesamt 30 Sekunden verschwinden soll. Der Andere sendet eine Nachricht, in dem Fall an ein anders Kostüm. Das Kostüm "Schwarzes Loch" taucht also nur dann auf, wenn das Spiel gewonnen ist. Es taucht wie auch die vorherigen Kostüme nach dem Befehl "wenn ich ... empfange" auf. Seine aufgabe solles sein den Meteor aufzusaugen. Damit ist dei Gefahr für den Planenten sozusagen vernichtet.
 
 ![bsp stride](schwarzesloch.png)
+
+Das verschwinden des Meteors wird dadurch visualisiert, dass die Befehle des Schwarzen Loches daraus bestehen, dass es zu den Koordinaten X=0 und Y=0 geht und dann dort für ein paar Sekunen bleibt. Nach der Wartezeit soll sich auch diese Sprite verstecken.

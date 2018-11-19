@@ -40,6 +40,8 @@ Nachdem das Flugzeug dann auf den Planent zufliegt und dort verschwindet, findet
 
 ![bsp stride](meteor-2.png)
 
-Auf den Bildern sieht man zum einen die aktiven Befehle für den Meteor und zum Anderen die für den/die Strich/e.
+Auf den oberen Bild sind die aktiven Befehle, also die die in diesem Moment aktiv sind, wieder markiert. Diese beziehen sich hier auf den Metheor. Das untere Bild zeigt die Befehle die auf den ersten Strich zutreffen. 
 
 ![bsp stride](strichrot.png)
+
+Wie schon oben gesagt, besteht nun der Sinn des Spiels darin, den Meteor davon abzuhalten aud den Boden zu kommen. Um also

@@ -8,6 +8,10 @@ Ein Blog über unser programmiertes Spiel auf Snap! (The Beauty and Joy of Compu
 
 [3. Das Spiel](#3)
 
+[4. Gewonnen](#4)
+
+[5. Verlohren](#5)
+
 ## <a name="1"></a> Einleitung 
 Willkommen auf unserem 2. Blog über unser Spiel. Hier erklären wir alles rund um unser Spiel, wie es funktioniert und auch wie wir mit Problemen umgegangen sind und sie gelöst haben. Dazu haben wir auch Bilder, um alles verständlicher zu machen und damit ihr auch ein Bild vor Augen habt.
 
@@ -57,10 +61,14 @@ Die letzten Befehle "verstecken" und "sende *schwarzes Loch* an alle" bedeuten, 
 
 ![bsp stride](schwarzesloch.png)
 
+## <a name="4"></a> Gewonnen
+
 Das verschwinden des Meteors wird dadurch visualisiert, dass die Befehle des Schwarzen Loches daraus bestehen, dass es zu den Koordinaten X=0 und Y=0 geht und dann dort für ein paar Sekunen bleibt. Nach der Wartezeit soll sich auch diese Sprite verstecken. Danach ist der letzte Befehl dieser Sprite, dass sie "sende *buehneyouwon* an alle senden" absendet. Die Nachricht empfängt dann das Flugzeug.
 Da das Spiel in diesem Fall gerade gewonnen wurde, kommt in der nächsten Szene wieder das Flugzeug angeflogen gefolgt von Konfetti. Dem Spieler wird dann gratuliert, dass er diese Welt gerettet hat. Durch die untenstehenden Befehle wird ausgesagt, dass das Flugzeug von den Koordinaten X=-500 Y=0 zu X=0 Y=0 "gleitet". Umgesetzt sieht das so aus als würde es von außerhalb in die Mitte des Bilds fliegen. Dabei haben wir erneut eine gewisse Ausrichtung angegeben und die Größe festgelegt. Zum Schluss sagt es "DANKE! Du hast uns gerettet!!"
 
 ![bsp stride](.png)
+
+## <a name="5"></a> Verloren
 
 Kommen wir nun zum anderen Fall, wenn man das Spiel verloren hat. Man verliert in diesem Spiel, wie schon erwähnt, wenn man den Meteor nicht aufhält, den Boden zu berühren. Denn wenn er das tut, dann wird die Welt von ihm zerstört. Wenn dies eintritt sind folgende Befehle dafür zuständig:
 

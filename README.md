@@ -44,4 +44,4 @@ Auf den oberen Bild sind die aktiven Befehle, also die die in diesem Moment akti
 
 ![bsp stride](strichrot.png)
 
-Wie schon oben gesagt, besteht nun der Sinn des Spiels darin, den Meteor davon abzuhalten aud den Boden zu kommen. Um also
+Wie schon oben gesagt, besteht nun der Sinn des Spiels darin, den Meteor davon abzuhalten aud den Boden zu kommen. Um also dies zu bewerkstelligen

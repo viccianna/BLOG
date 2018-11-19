@@ -34,4 +34,4 @@ Durch den folgenden Befehl aus dem Themenbereich Steuerung "Wiederhole 50 Mal" w
 
 Der nächste Befehl "sende *Bühnenwechsel* an alle" bedeutet, dass einen Nachricht an alle anderen Kostüme sowie Hintergründe gesendet wird. Dadurch können die verschiedenen Sprites kommunizieren. Diese Nachricht wird in unserem Fall an den Hintergrund gesendet. Mit dem Befehl "Wenn ich ... empfange" führt er die ihmgehörigen Befehle erst dann aus, sobald er die Nachricht bekommt. Danach soll das Flugzeug eine Sekunde warten und schließlich in "Richtung 90" zeigen und zu den Koordinaten X:10 Y:-70 gehen. Das letzte was das Flugzeug in dieser Szene zu dem Spieler sagt ist "So, hier beginnt unsere erste Mission. Wir werden uns gleich diesen noch unbekannten Planeten mal näher anschauen, was meinst du?". Nachdem man geantwortet hat kommt erneut der Befehl "Wiederhole (10 Mal)". Dieser Befehl beinhaltet diesmal die Drehung um 15°, die Änderung der Größe um -5 und das Gehen von 10 Schritten. zusammengesetzt sieht das im Spiel so als, als würde das Flugzeug auf den Planeten zufliegen und dann verschwinden.
 
-![bsp stride]()
+![bsp stride](flugzeugbefehl4.png)

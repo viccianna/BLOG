@@ -89,5 +89,9 @@ Die Nachricht die vorhin abgesendet wurde empfängt wieder das Flugzeug. Seine e
 
 ![bsp stride](verlorenflugzeug1.png)
 
+Durch letzte Veränderungen haben wir es geschafft den Befehl im Fall beim verlieren an das Flugzeug zu senden. Der Fehler war, dass der Befehl "stoppe alles" zu früh kam. Dadurch hat das Flugzeug gar nicht die Möglichkeit gehabt, die ihm zugehörigen Befehle auszuführen. Durch die unten gezeigten Veränderungen hat es jetzt doch funktioniert.
+
+![bsp stride](neuebefehle.png) 
+
 Schlussendlich lässt sich sagen, dass das Spiel genau das erreicht hat, was anfänglich unsere Intention war: Unsere Geschwister finden es richtig klasse und sind begeisterte Raumfahrer und Weltretter geworden ;)
 Kannst auch du die unerforschte Welt vor dem Untergang retten? Finde es heraus und rette den Planeten vor dem Kometen!  

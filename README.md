@@ -2,7 +2,7 @@
 
 Ein Blog über unser programmiertes Spiel auf Snap! (The Beauty and Joy of Computing)
 
-[1. Einleitung](#1)
+[1. Einleitung und Idee](#1)
 
 [2. Die Geschichte des Spiels](#2)
 
@@ -12,7 +12,7 @@ Ein Blog über unser programmiertes Spiel auf Snap! (The Beauty and Joy of Compu
 
 [5. Verloren](#5)
 
-## <a name="1"></a> Einleitung 
+## <a name="1"></a> Einleitung und Idee
 Willkommen auf unserem 2. Blog über unser Spiel "Planet vs. Komet". Hier erklären wir alles rund um unser Spiel, wie es funktioniert und auch wie wir mit Problemen umgegangen sind und sie gelöst haben. Dazu haben wir auch Bilder, um alles verständlicher zu machen und damit ihr auch ein Bild vor Augen habt.
 
 Viel Spaß beim lesen!
